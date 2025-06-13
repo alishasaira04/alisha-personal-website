@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alisha's Family - Personal Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Handlee&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+  <style>
+    /* Sparkle background */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      background-image: radial-gradient(white 1px, transparent 1px);
+      background-size: 5px 5px;
+      animation: sparkle 2s linear infinite;
+      opacity: 0.15;
+      z-index: 0;
+    }
+    @keyframes sparkle {
+      0%   { background-position: 0 0; }
+      100% { background-position: 100% 100%; }
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('fearless4.jpeg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      position: relative;
+      z-index: 1;
+    }
+
+    header {
+      background-color: #F0E68C;
+      color: #B8860B;
+      padding: 25px;
+      text-align: center;
+      font-family: 'Kaushan Script', cursive;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      background-color: #FFFFCC;
+      text-align: center;
+      padding: 12px;
+      opacity: 0.95;
+    }
+
+    nav a {
+      color: #8B8000;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #DAA520;
+    }
+
+    h1, p {
+      text-align: center;
+      color: khaki;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .card {
+      background-color: rgba(255, 255, 204, 0.85);
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      text-align: center;
+      backdrop-filter: blur(5px);
+    }
+
+    .polaroid {
+      background: white;
+      padding: 10px 10px 25px;
+      box-shadow: 0 12px 20px rgba(0,0,0,0.3);
+      border-radius: 10px;
+      display: inline-block;
+      transform: rotate(-2deg);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .polaroid:hover {
+      transform: rotate(0deg) scale(1.02);
+      box-shadow: 0 16px 30px rgba(0,0,0,0.4);
+    }
+
+    .polaroid img {
+      width: 220px;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 6px;
+      display: block;
+    }
+
+    .polaroid-caption {
+      color: sienna;
+      font-size: 1rem;
+      margin-top: 10px;
+      font-family: 'Handlee', cursive;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #F0E68C;
+      color: sienna;
+      font-size: 0.9rem;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    @media (max-width: 700px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .polaroid img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    ˋˏ ༻❁✿❀༺ ˎˊ ALISHA'S VERSION WEBSITE ༻❁✿❀༺ ˎˊ
+  </header>
+
+  <nav>
+    <a href="my personal website alisha.html">ABOUT ME</a>
+    <a href="education.html">EDUCATION</a>
+    <a href="family.html">FAMILY</a>
+    <a href="experience.html">EXPERIENCE</a>
+    <a href="friends.html">FRIENDS</a>
+    <a href="gallery.html">GALLERY</a>
+    <a href="other information.html">OTHER INFO</a>
+  </nav>
+
+   <h1 style="color: khaki; text-align: center;">.ೃ࿔MY FAMILY༄˖°.:･</h1>
+
+
+
+ <center>
+   <div class="media-center">
+  <audio controls>
+    <source src="best day.mp3" type="audio/mpeg">
+    <source src="best day.ogg" type="audio/ogg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+  <div class="container">
+    <div class="card">
+      <div class="polaroid">
+        <img src="alisha14.jpg" alt="Parents">
+        <div class="polaroid-caption">Zulfikri & Emilia (my beloved parents)</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="polaroid">
+        <img src="alisha15.jpg" alt="Zatimanina and family">
+        <div class="polaroid-caption">Zatimanina, Nazaruddin & Naura (eldest sister's family)</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="polaroid">
+        <img src="alisha16.jpg" alt="Siti Maisarah">
+        <div class="polaroid-caption">Siti Maisarah (second sister, 30)</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="polaroid">
+        <img src="alisha17.jpg" alt="Nur Sabrina">
+        <div class="polaroid-caption">Nur Sabrina (third sister, 28)</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="polaroid">
+        <img src="alisha18.jpeg" alt="Nurin Mahirah">
+        <div class="polaroid-caption">Nurin Mahirah (fourth sister, 26)</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="polaroid">
+        <img src="alisha1.jpg" alt="Alisha">
+        <div class="polaroid-caption">Alisha Saira (me! the youngest 💛)</div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer>
+    © 2025 Alisha's Website. All rights reserved.
+  </footer>
+
+</body>
+</html>
